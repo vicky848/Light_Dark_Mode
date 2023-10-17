@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 24px;
+}
+
+.card-container {
+  border-radius: 6px;
+  text-align: center;
+  padding: 24px;
+}
+.heading {
+  font-size: 26px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.btn {
+  font-size: 17px;
+  border: none;
+  padding: 17px;
+  border-radius: 6px;
+}
+
+.light-mode {
+  color: #000000;
+  background-color: #ffffff;
+  border: solid 1px;
+}
+.dark-mode {
+  color: #ffffff;
+  background-color: #000000;
+}
